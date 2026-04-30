@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/fern-api/fern/main/product-yml.schema.json
+
+tabs:
+  guides:
+    display-name: Guides
+    icon: book-open
+  api-reference:
+    display-name: API Reference
+    icon: puzzle
+
+navigation:
+  - tab: guides
+    layout:
+      - section: Getting started
+        contents:
+          - page: Overview
+            path: ./pages/overview.mdx
+          - page: Authentication
+            path: ./pages/authentication.mdx
+  - tab: api-reference
+    layout:
+      - api: Postman API
+        api-name: postman

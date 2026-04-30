@@ -1,0 +1,25 @@
+---
+title: Authentication
+subtitle: Authenticate your requests to the Postman API
+---
+
+Postman uses API keys for authentication. Include your API key in every request using the `X-API-Key` header.
+
+## Generate an API key
+
+1. Go to your [Postman account settings](https://postman.postman.co/settings/me/api-keys)
+2. Select **Generate API Key**
+3. Give your key a name and select **Generate**
+
+## Use your API key
+
+Include the key in the `X-API-Key` header:
+
+```bash
+curl -X GET "https://api.getpostman.com/me" \
+  -H "X-API-Key: your-api-key"
+```
+
+## Rate limits
+
+The API allows **300 requests per minute** per user. Monitor endpoints and certain GET endpoints have a limit of **10 calls in 10 seconds**.

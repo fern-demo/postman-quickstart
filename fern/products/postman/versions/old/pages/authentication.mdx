@@ -1,0 +1,21 @@
+---
+title: Authentication
+subtitle: Authenticate your requests to the Postman API (legacy)
+---
+
+<Warning>
+This is the legacy version. See the **New** version for the latest authentication guidance.
+</Warning>
+
+Include your API key in the `X-API-Key` header with every request.
+
+## Generate an API key
+
+Navigate to your [account settings](https://postman.postman.co/settings/me/api-keys) to generate a new key.
+
+## Example
+
+```bash
+curl -X GET "https://api.getpostman.com/me" \
+  -H "X-API-Key: your-api-key"
+```
