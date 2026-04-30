@@ -8,3 +8,19 @@
 :root.dark .fern-background-image {
   background-image: linear-gradient(180deg, rgba(112, 225, 85, 0.03) 0%, transparent 50%);
 }
+
+/* Squared search bar corners */
+[class*="fern-search"] input,
+[class*="fern-search"] [role="searchbox"],
+[class*="fern-search"] [role="combobox"],
+.fern-search-bar,
+.fern-search-bar input,
+button[class*="search"],
+[data-testid*="search"],
+[class*="SearchBar"] input,
+[class*="searchbar"] input,
+[class*="search-bar"],
+[class*="SearchDialog"],
+[class*="search-dialog"] {
+  border-radius: 0 !important;
+}

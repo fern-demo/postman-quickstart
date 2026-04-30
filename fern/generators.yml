@@ -2,4 +2,8 @@
 api:
   specs:
     - openapi: openapi.yaml
+      namespace: plantstore
     - asyncapi: asyncapi.yaml
+      namespace: plantstore
+    - openapi: postman-openapi.yaml
+      namespace: postman
