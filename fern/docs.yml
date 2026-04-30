@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://schema.buildwithfern.dev/docs-yml.json
 
 instances:
-  - url: plantstore.docs.buildwithfern.com
+  - url: postman-quickstart.docs.buildwithfern.com
 
 title: Fern Docs Starter
 
